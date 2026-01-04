@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0 select-none pointer-events-none overflow-hidden">
         <div className="absolute inset-0 w-full h-full scale-[1.35] md:scale-125">
             <iframe
-            src={`https://www.youtube.com/embed/${l6gf_viUbUk}?autoplay=1&mute=1&controls=0&loop=1&playlist=${l6gf_viUbUk}&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1`}
+            src={`https://www.youtube.com/embed/${HERO_VIDEO_ID}?autoplay=1&mute=1&controls=0&loop=1&playlist=${HERO_VIDEO_ID}&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1`}
             className="w-full h-full object-cover opacity-40"
             allow="autoplay; encrypted-media"
             title="Background Video"
