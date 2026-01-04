@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
 
-const HERO_VIDEO_ID = "l6gf_viUbUk"; 
+const HERO_VIDEO_ID = "ZWw4AGLwGiA"; 
 
 export default function Hero() {
   return (
