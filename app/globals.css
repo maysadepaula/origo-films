@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- ADICIONE ISSO PARA ROLAGEM SUAVE --- */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  background-color: #0d0e0e;
+  color: #f6f3e0;
+}
+
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0e0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #6a7662;
+  border-radius: 4px;
+}
